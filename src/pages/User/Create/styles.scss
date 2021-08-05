@@ -1,0 +1,36 @@
+.user-create {
+  .page-content {
+    width: 997px;
+    margin-top: 32px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      column-gap: 24px;
+      row-gap: 12px;
+      .item {
+        input {
+          width: 100%;
+          box-sizing: border-box;
+        }
+      }
+    }
+    .action-buttons{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+    }
+  }
+}
+
+.span3 {
+  grid-column: span 3;
+}
+.span4 {
+  grid-column: span 4;
+}
+.span6 {
+  grid-column: span 6;
+}
+.span12 {
+  grid-column: span 12;
+}
